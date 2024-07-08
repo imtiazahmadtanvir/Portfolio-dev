@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+/* Nav Style */
+header{
+    background-image:url(../Portfolio-dev/image/header_bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: top left,bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px 200px;
+
+}
+
+
+/* Nav tiitle style */
+.nav-title{
+    font-weight:800px;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+}
+
+/* shared style */
+/* .sub-title{
+    color: orangered;
+} */
+
+/*list style cancel for navigation*/
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+/* remove underline because underline is have anchor */
+nav li a {
+    text-decoration: none;
+}
+
+.dark-2{
+    color: 2F1E1E;
+}
+
+.btn{
+    display: flex;
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 18px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    justify-content: space-between;
+    margin-right: 20px ;
+    align-items: center;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px ;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner_profile_pic{
+
+}
